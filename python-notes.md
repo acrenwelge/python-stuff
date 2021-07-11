@@ -6,7 +6,7 @@
 * Bring into the REPL or other modules with `import module` syntax, or `import func from module`, or `import func from module as myfun` syntax
 * Defining functions: `def function_name(arg1, argn):`
 * using `return` without parameter or omitting it altogether returns `None`
-* Use `__name__` to determine how module is ued
+* Use `__name__` to determine how module is used
 * Use `if __name__ == __main__` to have flexibility to import or invoke directly
 * Module executed exactly once when first imported
 * Use `sys.argv` to get command line arguments - `sys.argv[0]` is the script filename

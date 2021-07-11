@@ -5,7 +5,7 @@ def timeout_handler(signum, frame):
   raise IOError("User not responding")
 
 def get_name():
-  signal(SIGALRM, timeout_handler)
+  signal(SIGALRM, timeout_handler) # timeout does not work on Windows
   alarm(5)
   n=sys.stdin.readline()
   alarm(0)

@@ -1,4 +1,5 @@
 import sys
+import os
 
 f = open("out1","r")
 for line in f:

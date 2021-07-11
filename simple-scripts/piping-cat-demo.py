@@ -16,5 +16,5 @@ for i in range(10):
 sorter.stdin.close()
 
 for line in sorter.stdout:
-  print(line.decode(), end='')
+  print(line.decode(), end = '')
 
